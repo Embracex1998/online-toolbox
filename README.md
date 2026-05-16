@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Online Toolbox - 免费在线工具箱
 
-## Getting Started
+> 16+ 实用在线工具，开箱即用，无需注册。
 
-First, run the development server:
+## 功能列表
+
+| 分类 | 工具 | 说明 |
+|------|------|------|
+| 开发工具 | JSON 格式化 | 格式化、压缩、验证 JSON |
+| 开发工具 | 时间戳转换 | 时间戳与日期互转 |
+| 开发工具 | 正则测试 | 实时匹配高亮 |
+| 开发工具 | Hash 计算 | MD5/SHA-1/SHA-256/SHA-512 |
+| 开发工具 | JWT 解析 | 解码 JWT Token |
+| 开发工具 | 进制转换 | 二/八/十/十六进制互转 |
+| 编码转换 | Base64 编解码 | 文本与 Base64 互转 |
+| 编码转换 | URL 编解码 | URL 编码解码 |
+| 编码转换 | 颜色转换 | HEX/RGB/HSL 互转 |
+| 文本处理 | 文本统计 | 字符/词/行/字节统计 |
+| 文本处理 | 文本对比 | 逐行差异对比 |
+| 文本处理 | Markdown 预览 | 实时渲染 |
+| 生成工具 | 二维码生成 | 高清二维码 |
+| 生成工具 | 密码生成器 | 安全随机密码 |
+| 生成工具 | UUID 生成器 | 批量 UUID v4 |
+| 生成工具 | 图片压缩 | PNG/JPG 压缩 |
+
+## 技术栈
+
+- **Framework**: Next.js 16 (App Router)
+- **Language**: TypeScript
+- **Style**: Tailwind CSS 4
+- **Deploy**: Vercel
+
+## 快速开始
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 一键部署
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Embracex1998/online-toolbox)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 特性
 
-## Learn More
+- 纯客户端运算，无需后端
+- 响应式设计，手机端完美适配
+- 暗黑模式支持
+- SEO 优化（sitemap、robots.txt）
+- 搜索功能
+- 广告位预留
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
